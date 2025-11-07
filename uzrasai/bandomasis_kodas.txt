@@ -1,0 +1,108 @@
+Lenteles kodas
+
+<body>
+        
+        <table>
+            <tr>
+                <td colspan="2"> Faktai apie Prancuzija</td>
+                <img src="prancuzija1.jpg" alt="zemelapis">
+                <td class="zemelapis" colspan="1"> Prancūzijos žemėlapis</td>
+            </tr>
+            <tr>
+                <td colspan="2"><div>Prancūzija ir Italija metai iš metų varžosi dėl geriausio vyno gamybos regiono pasaulyje titulo.</div><div> Nuo 2023 m. Prancūzija užima pirmą vietą, o jos gamyba per pastaruosius penkerius metus padidėjo vidutiniškai 8,4 %.</div></td>
+            </tr>
+        </table>
+
+</body>
+
+====================================================================================================CSS failas
+
+body{
+    margin: 0;
+}
+
+td.zemelapis {
+    box-sizing: border-box;
+    border: 2px solid rgb(144, 40, 140);
+    width:200px;
+    height: 200px;
+    font-size: 18px;
+    display: inline-block;
+    min-width: 200px;
+    /* prieš 10 metų - vėliau darysim su flex */
+    vertical-align: text-bottom; 
+    margin: 10px 15px;
+}
+
+div.faktai {
+    
+}
+====================================================================================================Nuotrauka veikia bet maza
+body{
+    margin: 0;
+}
+
+.box {
+    box-sizing: border-box;
+    border: 2px solid rgb(144, 40, 140);
+    width: calc(33.3333% - 30px);
+    height: 160px;
+    font-size: 18px;
+    display: inline-block;
+    min-width: 200px;
+    /* prieš 10 metų - vėliau darysim su flex */
+    vertical-align: top; 
+    margin: 10px 15px;
+
+}
+img {
+    height: 600px
+}
+.boxp {
+    display: inline-block;
+    vertical-align: top; 
+    margin: 0;
+}
+============================================================================================================Padidinau, paemiau skirtinga section bet isismete viskas
+body{
+    margin: 0;
+}
+
+.box {
+    box-sizing: border-box;
+    border: 2px solid rgb(144, 40, 140);
+    width: calc(33.3333% - 30px);
+    height: 160px;
+    font-size: 18px;
+    display: inline-block;
+    min-width: 200px;
+    /* prieš 10 metų - vėliau darysim su flex */
+    vertical-align: top; 
+    margin: 10px 15px;
+
+}
+
+div.section {
+    box-sizing: border-box;
+    border: 2px solid rgb(144, 40, 140);
+    width: calc(33.3333% - 30px);
+    height: 430px;
+    font-size: 18px;
+    display:inline-flex;
+    min-width: 200px;
+    /* prieš 10 metų - vėliau darysim su flex */
+    vertical-align: top; 
+    margin: 10px 15px;
+
+}
+
+img {
+    height: 400px
+}
+.boxp {
+    display:inline-flex;
+    vertical-align: top; 
+    margin: 0;
+}
+
+=============================================Deti i ta pati section su tikslesniu tagu? paziureti paskaitoje ka dare kai tekstas isejo uz puslapio

@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+}
+
+.box {
+    width: 150px;
+    background-color: darkgoldenrod;
+    color: white;
+    font-size: 26px;
+    font-family: monospace;
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+section {
+    display: flex;
+    justify-content: flex-start;
+    justify-content: flex-end;
+    justify-content: center;
+    justify-content: space-between;
+    justify-content: space-around;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    column-gap: 10px;
+}
