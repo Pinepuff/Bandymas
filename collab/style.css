@@ -19,25 +19,85 @@
     width: 100%;
     height: 90px;
     justify-content: space-between;
-    background-color: tomato;
     align-items: center;
     padding: 0 50px;
+    box-shadow: 1px 5px 5px 4px rgba(105, 105, 105, 0.3);
+    -webkit-box-shadow: 1px 5px 5px 4px rgba(105, 105, 105, 0.3);
+    -moz-box-shadow: 1px 5px 5px 4px rgba(105, 105, 105, 0.3);
 }
 
 .menu {
     width: 670px;
     display: flex;
     justify-content: space-between;
-    background-color: lawngreen;
 }
 
 .linksContainer {
     width: 80%;
     display: flex;
     justify-content: space-between;
-    background-color: darkkhaki;
     list-style: none;
     text-decoration: none;
     color: #2B0236;
     font-weight: 700;
+    align-items: center;
+}
+
+.headerButton {
+    padding: 6px;
+    background-color: transparent;
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: 700;
+    border: 2px solid #9A54BC;
+    color: #9A54BC;
+    cursor: pointer;
+}
+
+.headerButton:hover {
+    background-color: #9A54BC;
+    color: white;
+}
+
+/* button {
+    background-color: #9A54BC;
+    border: 2px solid #9A54BC;
+    padding: 10px;
+
+} */
+
+.firstSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /*kad eitu elementai vienas paskui kita o ne eilute*/
+    height: 200px;
+    row-gap: 23px;
+    */tarpas tarp mygtuko */
+}
+
+.firstSection h1 {
+    font-size: 56px;
+    text-align: center;
+    color: #2B0236;
+    letter-spacing: 1.2;
+}
+
+.firstSection button {
+    padding: 15px;
+    background-color: #9A54BC;
+    border: 1px solid #9A54BC;
+    color: white;
+    border-radius: 3px;
+    font: 12px;
+    cursor: pointer;
+    font-weight: 700;
+
+}
+
+.firstSection button:hover {
+    background-color: transparent;
+    /*kad butu mygtukas permatomas*/
+    color: #9A54BC
 }
